@@ -66,4 +66,4 @@ app.get( '/', (req, res) => {
 res.send('ok')
 })
 
-app.listen(port)
+app.listen(process.env.PORT || port)
